@@ -9,155 +9,155 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:meteo-milano-20261101@meteo-ics
-DTSTAMP:20261101T161526Z
+DTSTAMP:20261101T204318Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:🌦️ 15°/8° · pioggia 8%
 DESCRIPTION:Rovesci deboli\nMassima: 15°C\nMinima: 8°C\nRischio pioggia: 
  8%\nPrecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11
-  16:15 UTC
+  20:43 UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261102@meteo-ics
-DTSTAMP:20261101T161526Z
+DTSTAMP:20261101T204318Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
-SUMMARY:⛅ 17°/6° · pioggia 0%
-DESCRIPTION:Parzialmente nuvoloso\nMassima: 17°C\nMinima: 6°C\nRischio pi
- oggia: 0%\nPrecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornat
- o 01/11 16:15 UTC
+SUMMARY:☀️ 16°/5° · pioggia 0%
+DESCRIPTION:Sereno\nMassima: 16°C\nMinima: 5°C\nRischio pioggia: 0%\nPrec
+ ipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 20:43 U
+ TC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261103@meteo-ics
-DTSTAMP:20261101T161526Z
+DTSTAMP:20261101T204318Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
-SUMMARY:☁️ 14°/6° · pioggia 12%
-DESCRIPTION:Coperto\nMassima: 14°C\nMinima: 6°C\nRischio pioggia: 12%\nPr
- ecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 16:15
+SUMMARY:☁️ 15°/5° · pioggia 10%
+DESCRIPTION:Coperto\nMassima: 15°C\nMinima: 5°C\nRischio pioggia: 10%\nPr
+ ecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 20:43
   UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261104@meteo-ics
-DTSTAMP:20261101T161526Z
+DTSTAMP:20261101T204318Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-SUMMARY:🌧️ 12°/9° · pioggia 13%
+SUMMARY:🌧️ 12°/9° · pioggia 27%
 DESCRIPTION:Pioggia debole\nMassima: 12°C\nMinima: 9°C\nRischio pioggia: 
- 13%\nPrecipitazioni previste: 0.4 mm\nFonte: Open-Meteo · aggiornato 01/1
- 1 16:15 UTC
+ 27%\nPrecipitazioni previste: 0.4 mm\nFonte: Open-Meteo · aggiornato 01/1
+ 1 20:43 UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261105@meteo-ics
-DTSTAMP:20261101T161526Z
+DTSTAMP:20261101T204318Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-SUMMARY:☁️ 14°/9° · pioggia 8%
-DESCRIPTION:Coperto\nMassima: 14°C\nMinima: 9°C\nRischio pioggia: 8%\nPre
- cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 16:15 
+SUMMARY:☁️ 14°/9° · pioggia 9%
+DESCRIPTION:Coperto\nMassima: 14°C\nMinima: 9°C\nRischio pioggia: 9%\nPre
+ cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 20:43 
  UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261106@meteo-ics
-DTSTAMP:20261101T161526Z
+DTSTAMP:20261101T204318Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
-SUMMARY:☁️ 13°/8° · pioggia 11%
-DESCRIPTION:Coperto\nMassima: 13°C\nMinima: 8°C\nRischio pioggia: 11%\nPr
- ecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 16:15
+SUMMARY:☁️ 13°/8° · pioggia 23%
+DESCRIPTION:Coperto\nMassima: 13°C\nMinima: 8°C\nRischio pioggia: 23%\nPr
+ ecipitazioni previste: 0.3 mm\nFonte: Open-Meteo · aggiornato 01/11 20:43
   UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261107@meteo-ics
-DTSTAMP:20261101T161526Z
+DTSTAMP:20261101T204318Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
-SUMMARY:🌫️ 14°/4° · pioggia 18%
-DESCRIPTION:Nebbia\nMassima: 14°C\nMinima: 4°C\nRischio pioggia: 18%\nPre
- cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 16:15 
- UTC
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:meteo-milano-20261108@meteo-ics
-DTSTAMP:20261101T161526Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:🌧️ 13°/1° · pioggia 16%
-DESCRIPTION:Pioggia debole\nMassima: 13°C\nMinima: 1°C\nRischio pioggia: 
- 16%\nPrecipitazioni previste: 3.1 mm\nFonte: Open-Meteo · aggiornato 01/1
- 1 16:15 UTC
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:meteo-milano-20261109@meteo-ics
-DTSTAMP:20261101T161526Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:🌦️ 13°/5° · pioggia 26%
-DESCRIPTION:Pioviggine leggera\nMassima: 13°C\nMinima: 5°C\nRischio piogg
- ia: 26%\nPrecipitazioni previste: 1.7 mm\nFonte: Open-Meteo · aggiornato 
- 01/11 16:15 UTC
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:meteo-milano-20261110@meteo-ics
-DTSTAMP:20261101T161526Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:🌦️ 13°/8° · pioggia 29%
-DESCRIPTION:Pioviggine leggera\nMassima: 13°C\nMinima: 8°C\nRischio piogg
- ia: 29%\nPrecipitazioni previste: 2.6 mm\nFonte: Open-Meteo · aggiornato 
- 01/11 16:15 UTC
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:meteo-milano-20261111@meteo-ics
-DTSTAMP:20261101T161526Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-SUMMARY:⛅ 15°/6° · pioggia 32%
-DESCRIPTION:Parzialmente nuvoloso\nMassima: 15°C\nMinima: 6°C\nRischio pi
- oggia: 32%\nPrecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiorna
- to 01/11 16:15 UTC
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:meteo-milano-20261112@meteo-ics
-DTSTAMP:20261101T161526Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:🌫️ 14°/7° · pioggia 31%
-DESCRIPTION:Nebbia\nMassima: 14°C\nMinima: 7°C\nRischio pioggia: 31%\nPre
- cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 16:15 
- UTC
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:meteo-milano-20261113@meteo-ics
-DTSTAMP:20261101T161526Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:☁️ 14°/9° · pioggia 22%
-DESCRIPTION:Coperto\nMassima: 14°C\nMinima: 9°C\nRischio pioggia: 22%\nPr
- ecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 16:15
+SUMMARY:☁️ 12°/8° · pioggia 23%
+DESCRIPTION:Coperto\nMassima: 12°C\nMinima: 8°C\nRischio pioggia: 23%\nPr
+ ecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 20:43
   UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:meteo-milano-20261108@meteo-ics
+DTSTAMP:20261101T204318Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:🌧️ 10°/7° · pioggia 19%
+DESCRIPTION:Pioggia debole\nMassima: 10°C\nMinima: 7°C\nRischio pioggia: 
+ 19%\nPrecipitazioni previste: 3.1 mm\nFonte: Open-Meteo · aggiornato 01/1
+ 1 20:43 UTC
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meteo-milano-20261109@meteo-ics
+DTSTAMP:20261101T204318Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:🌫️ 13°/8° · pioggia 26%
+DESCRIPTION:Nebbia\nMassima: 13°C\nMinima: 8°C\nRischio pioggia: 26%\nPre
+ cipitazioni previste: 0.1 mm\nFonte: Open-Meteo · aggiornato 01/11 20:43 
+ UTC
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meteo-milano-20261110@meteo-ics
+DTSTAMP:20261101T204318Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:🌦️ 12°/10° · pioggia 29%
+DESCRIPTION:Pioviggine\nMassima: 12°C\nMinima: 10°C\nRischio pioggia: 29%
+ \nPrecipitazioni previste: 11.2 mm\nFonte: Open-Meteo · aggiornato 01/11 
+ 20:43 UTC
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meteo-milano-20261111@meteo-ics
+DTSTAMP:20261101T204318Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🌦️ 13°/10° · pioggia 32%
+DESCRIPTION:Pioviggine\nMassima: 13°C\nMinima: 10°C\nRischio pioggia: 32%
+ \nPrecipitazioni previste: 3.6 mm\nFonte: Open-Meteo · aggiornato 01/11 2
+ 0:43 UTC
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meteo-milano-20261112@meteo-ics
+DTSTAMP:20261101T204318Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:🌦️ 19°/10° · pioggia 31%
+DESCRIPTION:Pioviggine leggera\nMassima: 19°C\nMinima: 10°C\nRischio piog
+ gia: 31%\nPrecipitazioni previste: 0.2 mm\nFonte: Open-Meteo · aggiornato
+  01/11 20:43 UTC
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meteo-milano-20261113@meteo-ics
+DTSTAMP:20261101T204318Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:☀️ 16°/7° · pioggia 22%
+DESCRIPTION:Sereno\nMassima: 16°C\nMinima: 7°C\nRischio pioggia: 22%\nPre
+ cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 20:43 
+ UTC
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:meteo-milano-20261114@meteo-ics
-DTSTAMP:20261101T161526Z
+DTSTAMP:20261101T204318Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:🌫️ 14°/8° · pioggia 26%
-DESCRIPTION:Nebbia\nMassima: 14°C\nMinima: 8°C\nRischio pioggia: 26%\nPre
- cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 16:15 
+SUMMARY:☀️ 13°/5° · pioggia 26%
+DESCRIPTION:Sereno\nMassima: 13°C\nMinima: 5°C\nRischio pioggia: 26%\nPre
+ cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 01/11 20:43 
  UTC
 TRANSP:TRANSPARENT
 END:VEVENT
