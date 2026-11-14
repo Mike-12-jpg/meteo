@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+!/usr/bin/env python3
 """Genera docs/meteo.ics con un evento "tutto il giorno" per ogni giorno di previsione.
 Dati: Open-Meteo (gratuito, senza chiave). Cambia CITY/LAT/LON per un'altra città."""
-import json, os, sys, urllib.request
+import json, os, socket, sys, time, urllib.request
 from datetime import date, datetime, timedelta, timezone
 
 CITY = os.environ.get("CITY", "Milano")
@@ -26,6 +26,12 @@ WMO = {
 }
 SNOW_CODES = {71, 73, 75, 77, 85, 86}
 
+_getaddrinfo = socket.getaddrinfo
+
+def _solo_ipv4(*args, **kwargs):
+    """Usa solo indirizzi IPv4: su alcuni server di GitHub IPv6 causa timeout."""
+    return [r for r in _getaddrinfo(*args, **kwargs) if r[0] == socket.AF_INET]
+
 def fetch():
     params = (
         f"latitude={LAT}&longitude={LON}&timezone=Europe%2FRome&forecast_days={DAYS}"
@@ -35,8 +41,19 @@ def fetch():
     if MODEL:
         params += f"&models={MODEL}"
     url = f"https://api.open-meteo.com/v1/forecast?{params}"
-    with urllib.request.urlopen(url, timeout=30) as r:
-        return json.load(r)
+    last = None
+    for attempt in range(1, 6):  # fino a 5 tentativi con pausa crescente
+        if attempt >= 2:
+            socket.getaddrinfo = _solo_ipv4  # dal 2° tentativo forza IPv4
+        try:
+            with urllib.request.urlopen(url, timeout=30) as r:
+                return json.load(r)
+        except Exception as e:
+            last = e
+            print(f"Tentativo {attempt}/5 fallito: {e}", file=sys.stderr)
+            if attempt < 5:
+                time.sleep(10 * attempt)
+    raise last
 
 def esc(t):
     return t.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
@@ -98,8 +115,10 @@ if __name__ == "__main__":
     try:
         data = fetch()
     except Exception as e:
-        print(f"Errore nel recupero dei dati: {e}", file=sys.stderr)
-        sys.exit(1)  # non sovrascrive il file esistente
+        # Problema di rete: teniamo il file precedente e non segnaliamo errore,
+        # così non arrivano e-mail per un disguido passeggero.
+        print(f"::warning::Open-Meteo non raggiungibile, file non aggiornato: {e}")
+        sys.exit(0)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8", newline="") as f:
         f.write(build(data))
