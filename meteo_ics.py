@@ -1,4 +1,4 @@
-!/usr/bin/env python3
+#!/usr/bin/env python3
 """Genera docs/meteo.ics con un evento "tutto il giorno" per ogni giorno di previsione.
 Dati: Open-Meteo (gratuito, senza chiave). Cambia CITY/LAT/LON per un'altra città."""
 import json, os, socket, sys, time, urllib.request
