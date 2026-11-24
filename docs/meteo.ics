@@ -8,157 +8,157 @@ X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:meteo-milano-20261123@meteo-ics
-DTSTAMP:20261123T121442Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:🌫️ 11°/4° · pioggia 0%
-DESCRIPTION:Nebbia\nMassima: 11°C\nMinima: 4°C\nRischio pioggia: 0%\nPrec
- ipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 23/11 12:14 U
- TC
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:meteo-milano-20261124@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
-SUMMARY:🌧️ 10°/6° · pioggia 80%
+SUMMARY:🌧️ 10°/6° · pioggia 88%
 DESCRIPTION:Pioggia debole\nMassima: 10°C\nMinima: 6°C\nRischio pioggia: 
- 80%\nPrecipitazioni previste: 0.6 mm\nFonte: Open-Meteo · aggiornato 23/1
- 1 12:14 UTC
+ 88%\nPrecipitazioni previste: 0.4 mm\nFonte: Open-Meteo · aggiornato 24/1
+ 1 00:15 UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261125@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:🌦️ 8°/7° · pioggia 100%
-DESCRIPTION:Rovesci deboli\nMassima: 8°C\nMinima: 7°C\nRischio pioggia: 1
- 00%\nPrecipitazioni previste: 23.2 mm\nFonte: Open-Meteo · aggiornato 23/
- 11 12:14 UTC
+SUMMARY:🌧️ 8°/7° · pioggia 100%
+DESCRIPTION:Pioggia debole\nMassima: 8°C\nMinima: 7°C\nRischio pioggia: 1
+ 00%\nPrecipitazioni previste: 26.4 mm\nFonte: Open-Meteo · aggiornato 24/
+ 11 00:15 UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261126@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:🌧️ 9°/6° · pioggia 86%
-DESCRIPTION:Pioggia debole\nMassima: 9°C\nMinima: 6°C\nRischio pioggia: 8
- 6%\nPrecipitazioni previste: 3.7 mm\nFonte: Open-Meteo · aggiornato 23/11
-  12:14 UTC
+SUMMARY:🌧️ 9°/6° · pioggia 93%
+DESCRIPTION:Pioggia debole\nMassima: 9°C\nMinima: 6°C\nRischio pioggia: 9
+ 3%\nPrecipitazioni previste: 5.1 mm\nFonte: Open-Meteo · aggiornato 24/11
+  00:15 UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261127@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-SUMMARY:🌫️ 9°/6° · pioggia 8%
-DESCRIPTION:Nebbia\nMassima: 9°C\nMinima: 6°C\nRischio pioggia: 8%\nPreci
- pitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 23/11 12:14 UT
- C
+SUMMARY:☁️ 9°/6° · pioggia 23%
+DESCRIPTION:Coperto\nMassima: 9°C\nMinima: 6°C\nRischio pioggia: 23%\nPre
+ cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 24/11 00:15 
+ UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261128@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:🌫️ 9°/2° · pioggia 10%
-DESCRIPTION:Nebbia\nMassima: 9°C\nMinima: 2°C\nRischio pioggia: 10%\nPrec
- ipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 23/11 12:14 U
- TC
+SUMMARY:☁️ 10°/3° · pioggia 13%
+DESCRIPTION:Coperto\nMassima: 10°C\nMinima: 3°C\nRischio pioggia: 13%\nPr
+ ecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 24/11 00:15
+  UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261129@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-SUMMARY:🌫️ 5°/2° · pioggia 2%
-DESCRIPTION:Nebbia\nMassima: 5°C\nMinima: 2°C\nRischio pioggia: 2%\nPreci
- pitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 23/11 12:14 UT
+SUMMARY:🌫️ 8°/1° · pioggia 0%
+DESCRIPTION:Nebbia\nMassima: 8°C\nMinima: 1°C\nRischio pioggia: 0%\nPreci
+ pitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 24/11 00:15 UT
  C
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261130@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-SUMMARY:☁️ 6°/0° · pioggia 9%
-DESCRIPTION:Coperto\nMassima: 6°C\nMinima: 0°C\nRischio pioggia: 9%\nPrec
- ipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 23/11 12:14 U
+SUMMARY:☁️ 7°/1° · pioggia 5%
+DESCRIPTION:Coperto\nMassima: 7°C\nMinima: 1°C\nRischio pioggia: 5%\nPrec
+ ipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 24/11 00:15 U
  TC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261201@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-SUMMARY:☁️ 6°/-1° · pioggia 2%
-DESCRIPTION:Coperto\nMassima: 6°C\nMinima: -1°C\nRischio pioggia: 2%\nPre
- cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 23/11 12:14 
+SUMMARY:☁️ 8°/-1° · pioggia 2%
+DESCRIPTION:Coperto\nMassima: 8°C\nMinima: -1°C\nRischio pioggia: 2%\nPre
+ cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 24/11 00:15 
  UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261202@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-SUMMARY:🌫️ 6°/-2° · pioggia 2%
-DESCRIPTION:Nebbia\nMassima: 6°C\nMinima: -2°C\nRischio pioggia: 2%\nPrec
- ipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 23/11 12:14 U
+SUMMARY:☁️ 9°/0° · pioggia 8%
+DESCRIPTION:Coperto\nMassima: 9°C\nMinima: 0°C\nRischio pioggia: 8%\nPrec
+ ipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 24/11 00:15 U
  TC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261203@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-SUMMARY:⛅ 9°/-1° · pioggia 6%
-DESCRIPTION:Parzialmente nuvoloso\nMassima: 9°C\nMinima: -1°C\nRischio pi
- oggia: 6%\nPrecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornat
- o 23/11 12:14 UTC
+SUMMARY:🌤️ 10°/1° · pioggia 8%
+DESCRIPTION:Prevalentemente sereno\nMassima: 10°C\nMinima: 1°C\nRischio p
+ ioggia: 8%\nPrecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiorna
+ to 24/11 00:15 UTC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261204@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:☀️ 10°/0° · pioggia 4%
-DESCRIPTION:Sereno\nMassima: 10°C\nMinima: 0°C\nRischio pioggia: 4%\nPrec
- ipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 23/11 12:14 U
- TC
+SUMMARY:🌫️ 8°/0° · pioggia 6%
+DESCRIPTION:Nebbia\nMassima: 8°C\nMinima: 0°C\nRischio pioggia: 6%\nPreci
+ pitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 24/11 00:15 UT
+ C
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261205@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
-SUMMARY:🌤️ 8°/0° · pioggia 4%
-DESCRIPTION:Prevalentemente sereno\nMassima: 8°C\nMinima: 0°C\nRischio pi
- oggia: 4%\nPrecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornat
- o 23/11 12:14 UTC
+SUMMARY:🌫️ 8°/0° · pioggia 10%
+DESCRIPTION:Nebbia\nMassima: 8°C\nMinima: 0°C\nRischio pioggia: 10%\nPrec
+ ipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 24/11 00:15 U
+ TC
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:meteo-milano-20261206@meteo-ics
-DTSTAMP:20261123T121442Z
+DTSTAMP:20261124T001517Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-SUMMARY:☁️ 9°/1° · pioggia 10%
-DESCRIPTION:Coperto\nMassima: 9°C\nMinima: 1°C\nRischio pioggia: 10%\nPre
- cipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 23/11 12:14 
- UTC
+SUMMARY:⛅ 12°/2° · pioggia 7%
+DESCRIPTION:Parzialmente nuvoloso\nMassima: 12°C\nMinima: 2°C\nRischio pi
+ oggia: 7%\nPrecipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornat
+ o 24/11 00:15 UTC
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:meteo-milano-20261207@meteo-ics
+DTSTAMP:20261124T001517Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:☀️ 14°/6° · pioggia 6%
+DESCRIPTION:Sereno\nMassima: 14°C\nMinima: 6°C\nRischio pioggia: 6%\nPrec
+ ipitazioni previste: 0.0 mm\nFonte: Open-Meteo · aggiornato 24/11 00:15 U
+ TC
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
